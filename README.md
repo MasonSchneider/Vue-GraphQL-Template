@@ -1,5 +1,7 @@
 # Vue-GraphQL-Template
 
+A post on how to use this template can be found at [SchneidersCode](https://schneiderscode.com/technology/guides/2020/05/30/vue-hasura-auth0-apollo.html).
+
 ## Project setup
 
 1.  ```

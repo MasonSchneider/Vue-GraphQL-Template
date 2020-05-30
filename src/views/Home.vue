@@ -1,6 +1,6 @@
 <template>
   <div class="home" v-if="!$auth.loading">
-    <p>Hello: {{ userInfo().name }}</p>
+    <p>Hello: {{ userInfo().id }}</p>
     <Checks/>
   </div>
 </template>
@@ -11,7 +11,7 @@ import gql from 'graphql-tag';
 export const GET_USER_INFO = gql`
   query getUserInfo {
     userInfos: users(limit: 1) {
-      name
+      id
     }
   }
 `;
